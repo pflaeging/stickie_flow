@@ -1,0 +1,10 @@
+= Redmine 'Stickie~Flow' Plugin
+
+This plugin allows overriding the default language strings in Redmine, without hacking the Redmine core.
+
+== Getting the plugin
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
+

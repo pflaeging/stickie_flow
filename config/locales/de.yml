@@ -1,0 +1,93 @@
+# German translation (changes for Stickie~Flow) [Peter Pflaeging]
+de:
+  activerecod:
+    messages:
+      cant_link_an_issue_with_a_descendant: "Ein Stickie kann nicht mit einer Ihrer Unteraufgaben verlinkt werden"
+  button_copy_and_follow: Kopieren und Stickie anzeigen
+  button_move_and_follow: Verschieben und Stickie anzeigen
+  enumeration_issue_priorities: Stickie-Prioritäten
+  error_can_not_delete_tracker: Dieser Tracker enthält Stickies und kann nicht gelöscht werden.
+  error_can_not_reopen_issue_on_closed_version: Das Stickie ist einer abgeschlossenen Version zugeordnet und kann daher nicht wieder geöffnet werden.
+  error_issue_done_ratios_not_updated: Der Stickie-Fortschritt wurde nicht aktualisiert.
+  error_issue_not_found_in_project: 'Das Stickie wurde nicht gefunden oder gehört nicht zu diesem Projekt.'
+  error_no_default_issue_status: Es ist kein Status als Standard definiert. Bitte überprüfen Sie Ihre Konfiguration (unter "Administration -> Stickie-Status").
+  error_unable_delete_issue_status: "Der Stickie-Status konnte nicht gelöscht werden."
+  field_assignable: Stickies können dieser Rolle zugewiesen werden
+  field_is_closed: Stickie geschlossen
+  field_issue: Stickie
+  field_issue_to: Zugehöriges Stickie
+  field_issues_visibility: Stickie Sichtbarkeit
+  label_any_issues_in_project: irgendein Stickie im Projekt
+  label_any_issues_not_in_project: irgendein Stickie nicht im Projekt
+  label_assigned_to_me_issues: Mir zugewiesene Stickies
+  label_attribute_of_issue: "%{name} des Stickies"
+  label_bulk_edit_selected_issues: Alle ausgewählten Stickies bearbeiten
+  label_issue: Stickie
+  label_issue_added: Stickie hinzugefügt
+  label_issue_category: Stickie-Kategorie
+  label_issue_category_plural: Stickie-Kategorien
+  label_issue_new: Neues Stickie
+  label_issue_plural: Stickies
+  label_issue_status: Stickie-Status
+  label_issue_status_plural: Stickie-Status
+  label_issue_tracking: Stickies
+  label_issue_updated: Stickie aktualisiert
+  label_issue_view_all: Alle Stickies anzeigen
+  label_issues_by: "Stickies pro %{value}"
+  label_issues_visibility_all: Alle Stickies
+  label_issues_visibility_own: Stickies die folgender Benutzer erstellt hat oder die ihm zugewiesen sind
+  label_issues_visibility_public: Alle öffentlichen Stickies
+  label_link_copied_issue: Kopierte Stickies verlinken
+  label_no_issues_in_project: keine Stickies im Projekt
+  label_related_issues: Zugehörige Stickies
+  label_reported_issues: Erstellte Stickies
+  label_roadmap_no_issues: Keine Stickies für diese Version
+  label_update_issue_done_ratios: Stickie-Fortschritt aktualisieren
+  label_watched_issues: Beobachtete Stickies
+  label_x_issues:
+    zero:  0 Stickies
+    one:   1 Stickie
+    other: "%{count} Stickies"
+  mail_body_reminder: "%{count} Stickies, die Ihnen zugewiesen sind, müssen in den nächsten %{days} Tagen abgegeben werden:"
+  mail_subject_reminder: "%{count} Stickies müssen in den nächsten %{days} Tagen abgegeben werden"
+  notice_failed_to_save_issues: "%{count} von %{total} ausgewählten Stickies konnte(n) nicht gespeichert werden: %{ids}."
+  notice_issue_done_ratios_updated: Der Stickie-Fortschritt wurde aktualisiert.
+  notice_issue_successful_create: Stickie %{id} erstellt.
+  notice_issue_update_conflict: Das Stickie wurde während Ihrer Bearbeitung von einem anderen Nutzer überarbeitet.
+  notice_no_issue_selected: "Kein Stickie ausgewählt! Bitte wählen Sie die Stickies, die Sie bearbeiten möchten."
+  permission_add_issues: Stickies hinzufügen
+  permission_delete_issues: Stickies löschen
+  permission_edit_issues: Stickies bearbeiten
+  permission_manage_categories: Stickie-Kategorien verwalten
+  permission_manage_issue_relations: Stickie-Beziehungen verwalten
+  permission_manage_related_issues: Zugehörige Stickies verwalten
+  permission_move_issues: Stickies verschieben
+  permission_set_issues_private: Stickies privat oder öffentlich markieren
+  permission_set_own_issues_private: Eigene Stickies privat oder öffentlich markieren
+  permission_view_issues: Stickies anzeigen
+  project_module_issue_tracking: Stickie-Verfolgung
+  setting_commit_cross_project_ref: Erlauben auf Stickies aller anderen Projekte zu referenzieren
+  setting_cross_project_issue_relations: Stickie-Beziehungen zwischen Projekten erlauben
+  setting_default_issue_start_date_to_creation_date: Aktuelles Datum als Beginn für neue Stickies verwenden
+  setting_display_subprojects_issues: Stickies von Unterprojekten im Hauptprojekt anzeigen
+  setting_issue_done_ratio: Berechne den Stickie-Fortschritt mittels
+  setting_issue_done_ratio_issue_field: Stickie-Feld %-erledigt
+  setting_issue_done_ratio_issue_status: Stickie-Status
+  setting_issue_group_assignment: Stickiezuweisung an Gruppen erlauben
+  setting_issue_list_default_columns: Standard-Spalten in der Stickie-Auflistung
+  setting_issues_export_limit: Max. Anzahl Stickies bei CSV/PDF-Export
+  setting_link_copied_issue: Stickies beim kopieren verlinken
+  text_destroy_time_entries_question: Es wurden bereits %{hours} Coins auf dieses Stickie gebucht. Was soll mit den Aufwänden geschehen?
+  text_issue_added: "Stickie %{id} wurde erstellt von %{author}."
+  text_issue_category_destroy_question: "Einige Stickies (%{count}) sind dieser Kategorie zugeodnet. Was möchten Sie tun?"
+  text_issue_category_reassign_to: Stickies dieser Kategorie zuordnen
+  text_issue_updated: "Stickie %{id} wurde aktualisiert von %{author}."
+  text_issues_destroy_confirmation: 'Sind Sie sicher, dass Sie die ausgewählten Stickies löschen möchten?'
+  text_issues_ref_in_commit_messages: Stickie-Beziehungen und -Status in Commit-Log-Meldungen
+  text_no_configuration_data: "Rollen, Tracker, Stickie-Status und Workflows wurden noch nicht konfiguriert.\nEs ist sehr zu empfehlen, die Standard-Konfiguration zu laden. Sobald sie geladen ist, können Sie diese abändern."
+  text_reassign_time_entries: 'Gebuchte Aufwände diesem Stickie zuweisen:'
+  text_user_mail_option: "Für nicht ausgewählte Projekte werden Sie nur Benachrichtigungen für Dinge erhalten, die Sie beobachten oder an denen Sie beteiligt sind (z. B. Stickies, deren Autor Sie sind oder die Ihnen zugewiesen sind)."
+  label_search_open_issues_only: Nur offene Stickies
+  permission_copy_issues: Stickies kopieren
+  # for redmine_agile
+  label_agile: Stickie-Board
