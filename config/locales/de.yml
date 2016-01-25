@@ -1,5 +1,6 @@
 # German translation (changes for Stickie~Flow) [Peter Pflaeging]
 de:
+  ## Tickets -> Stickies
   activerecod:
     messages:
       cant_link_an_issue_with_a_descendant: "Ein Stickie kann nicht mit einer Ihrer Unteraufgaben verlinkt werden"
@@ -89,5 +90,10 @@ de:
   text_user_mail_option: "Für nicht ausgewählte Projekte werden Sie nur Benachrichtigungen für Dinge erhalten, die Sie beobachten oder an denen Sie beteiligt sind (z. B. Stickies, deren Autor Sie sind oder die Ihnen zugewiesen sind)."
   label_search_open_issues_only: Nur offene Stickies
   permission_copy_issues: Stickies kopieren
-  # for redmine_agile
+  ## Stunden -> Coins
+  field_hours: Coins
+  label_f_hour: "%{value} Coin"
+  label_f_hour_plural: "%{value} Coins"
+  text_destroy_time_entries_question: Es wurden bereits %{hours} Coins auf dieses Ticket gebucht. Was soll mit den Aufwänden geschehen?
+  ## for redmine_agile
   label_agile: Stickie-Board

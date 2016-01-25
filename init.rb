@@ -9,4 +9,9 @@ Redmine::Plugin.register :stickie_flow do
   version '0.4.0'
 
   requires_redmine :version_or_higher => '0.8.7'
+
+  menu :top_menu, :agile, {:controller => 'agile_boards', :action => 'index' },
+                              :caption => :label_agile,
+                              :before => :projects
+
 end
