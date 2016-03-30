@@ -4,6 +4,7 @@ de:
   activerecod:
     messages:
       cant_link_an_issue_with_a_descendant: "Ein Stickie kann nicht mit einer Ihrer Unteraufgaben verlinkt werden"
+      not_same_project: "gehört nicht zum selben Ordner"
   button_copy_and_follow: Kopieren und Stickie anzeigen
   button_move_and_follow: Verschieben und Stickie anzeigen
   enumeration_issue_priorities: Stickie-Prioritäten
@@ -97,3 +98,54 @@ de:
   text_destroy_time_entries_question: Es wurden bereits %{hours} Coins auf dieses Ticket gebucht. Was soll mit den Aufwänden geschehen?
   ## for redmine_agile
   label_agile: Stickie-Board
+  ## Projekt -> Ordner
+  description_choose_project: Ordner
+  error_can_not_archive_project: Dieser Ordner kann nicht archiviert werden.
+  error_issue_not_found_in_project: 'Das Ticket wurde nicht gefunden oder gehört nicht zu diesem Ordner.'
+  error_no_tracker_in_project: Diesem Ordner ist kein Tracker zugeordnet. Bitte überprüfen Sie die Projekteinstellungen.
+  field_project: Ordner
+  field_subproject: Unterordner von
+  label_add_projects: Ordner hinzufügen
+  label_and_its_subprojects: "%{value} und dessen Unterordner"
+  label_any_issues_in_project: irgendein Ticket im Ordner
+  label_any_issues_not_in_project: irgendein Ticket nicht im Ordner
+  label_attribute_of_project: "%{name} des Ordners"
+  label_cross_project_descendants: Mit Unterordner
+  label_cross_project_hierarchy: Mit Ordnerhierarchie
+  label_cross_project_system: Mit allen Ordnern
+  label_cross_project_tree: Mit Ordnerbaum
+  label_jump_to_a_project: Zu einem Ordner springen...
+  label_my_projects: Meine Ordner
+  label_no_issues_in_project: keine Tickets im Ordner
+  label_project: Ordner
+  label_project_all: Alle Ordner
+  label_project_copy_notifications: Sende Mailbenachrichtigungen beim Kopieren des Ordners.
+  label_project_latest: Neuester Ordner
+  label_project_new: Neuer Ordner
+  label_project_plural: Ordner
+  label_public_projects: Öffentlicher Ordner
+  label_show_closed_projects: Geschlossene Ordner anzeigen
+  label_subproject_new: Neuer Unterordner
+  label_subproject_plural: Unterordner
+  label_users_visibility_members_of_visible_projects: Mitglieder von sichtbaren Ordnern
+  notice_not_authorized_archived_project: Das Ordner wurde archiviert und ist daher nicht nicht verfügbar.
+  permission_add_project: Ordner erstellen
+  permission_add_subprojects: Unterordner erstellen
+  permission_close_project: Schließen / erneutes Öffnen eines Ordners
+  permission_edit_project: Ordner bearbeiten
+  permission_select_project_modules: Ordnermodule auswählen
+  project_module_repository: Ordnerarchiv
+  setting_commit_cross_project_ref: Erlauben auf Tickets aller anderen Ordner zu referenzieren
+  setting_cross_project_issue_relations: Ticket-Beziehungen zwischen Ordnern erlauben
+  setting_cross_project_subtasks: Ordnerübergreifende Unteraufgaben erlauben
+  setting_default_projects_modules: Standardmäßig aktivierte Module für neue Ordner
+  setting_default_projects_public: Neue Ordner sind standardmäßig öffentlich
+  setting_default_projects_tracker_ids: Standardmäßig aktivierte Tracker für neue Ordner
+  setting_display_subprojects_issues: Tickets von Unterordnern im Hauptprojekt anzeigen
+  setting_new_project_user_role_id: Rolle, die einem Nicht-Administrator zugeordnet wird, der ein Ordner erstellt
+  setting_sequential_project_identifiers: Fortlaufende Ordnerkennungen generieren
+  text_assign_time_entries_to_project: Gebuchte Aufwände dem Ordner zuweisen
+  text_project_closed: Dieser Ordner ist geschlossen und kann nicht bearbeitet werden.
+  text_project_destroy_confirmation: Sind Sie sicher, dass Sie diesen Ordner löschen wollen?
+  text_select_project_modules: 'Bitte wählen Sie die Module aus, die in diesem Ordner aktiviert sein sollen:'
+  text_subprojects_destroy_warning: "Dessen Unterordner (%{value}) werden ebenfalls gelöscht."
