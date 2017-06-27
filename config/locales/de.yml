@@ -149,3 +149,22 @@ de:
   text_project_destroy_confirmation: Sind Sie sicher, dass Sie diesen Ordner löschen wollen?
   text_select_project_modules: 'Bitte wählen Sie die Module aus, die in diesem Ordner aktiviert sein sollen:'
   text_subprojects_destroy_warning: "Dessen Unterordner (%{value}) werden ebenfalls gelöscht."
+
+  label_task_board: Stickie~Board
+  task_board_help: Du musst Spalten für das Stickie~Board anlegen. Jede Spalte kann mehrere Stati repräsentieren
+  task_board_column_title: Spaltentitel
+  task_board_create_column: Spalte anlegen
+  label_task_board_application_error: Unerwarteter Plugin Fehler
+  task_board_statuses: Stati
+  task_board_columns: Spalten
+  task_board_not_shown: Wird nicht angezeigt
+  task_board_visible_columns: Sichtbare Spalten
+  task_board_task_limit: Maximale Stickieanzahl (WIP)
+  task_board_save_changes: Speichern
+  task_board_issue_archived: Dieses Stickie ist archiviert wird nicht angezeigt.
+  task_board_issue_unarchive: Stickie aus Archiv zurückholen
+  task_board_issue_bulk_archive: Archiviere ausgewählte Stickies
+  task_board_issue_bulk_edit: Editiere ausgewählte Stickies
+  task_board_not_prioritized: Andere Stickies
+  task_board_prioritized: Priorisierte Stickies
+  label_task_board_include_subprojects: Unterordner inkludieren
