@@ -168,3 +168,6 @@ de:
   task_board_not_prioritized: Andere Stickies
   task_board_prioritized: Priorisierte Stickies
   label_task_board_include_subprojects: Unterordner inkludieren
+  task_board_status_config_message: Die Stickie~Board-Spalten durch herüberziehen der Stati konfigurieren.
+  task_board_my_board: Mein Board
+  task_board_title: Stickie~Board
